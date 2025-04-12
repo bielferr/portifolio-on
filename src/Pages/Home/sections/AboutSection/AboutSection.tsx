@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "Git", "HTML", "CSS", "Cypress", "AWS", "GCP", "Material UI", "Figma"
+        "Javascript", "Typescript", "React", "Node.js", "Git", "HTML", "CSS", "MongoDB", "MySQL ", "Next.js", "Material UI", "Figma","Ingles-intermedio"
     ]
 
     return (
@@ -31,7 +31,7 @@ const AboutSection: React.FC = () => {
                                 <WorkspacePremiumIcon />
                                 <Typography textAlign="center" fontWeight={600}>Experience</Typography>
                                 <Typography textAlign="center">1+ years</Typography>
-                                <Typography textAlign="center">Frontend Development</Typography>
+                                <Typography textAlign="center">FullStack Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
                     </Grid>
@@ -40,8 +40,8 @@ const AboutSection: React.FC = () => {
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
                                 <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Bachelors Degree</Typography>
-                                <Typography textAlign="center">Electrical Engineer</Typography>
+                                <Typography textAlign="center"></Typography>
+                                <Typography textAlign="center">Graduated in Systems Analysis and Development.</Typography>
                             </StyledCard>
                         </AnimationComponent>
 
@@ -49,17 +49,7 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
+                    Full Stack Developer with experience in React, Node.js, TypeScript and Nest.js. Certified in Node.js (Rocketseat, 2023) and Cyber ​​Security Awareness (2024). Experience in APIs, databases and agile methodologies.
                     </Typography>
                 </Box>
                 <hr />

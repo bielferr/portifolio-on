@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground"
 import Typewriter from "../../../../components/Typewriter/Typewriter"
-import Avatar from "../../../../assets/images/avatar.jpg"
+import Avatar from "../../../../assets/images/avatar.png"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
         // Create a link element
         const link = document.createElement('a');
         link.href = CV
-        link.download = 'example.pdf'; // Set the download attribute to specify the file name
+        link.download = '../../../../assets/pdfs/Open.pdf'; // Set the download attribute to specify the file name
         // Append the link to the body
         document.body.appendChild(link);
         // Trigger the click event
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
     };
 
     const handleEmail = () => {
-        const emailAddress = 'example@example.com';
+        const emailAddress = 'gabrielferreiradesouza5513@gmail.com';
         const subject = 'Subject';
         const body = 'Hello! I saw your portfolio...';
 
@@ -73,7 +73,7 @@ const HeroSection: React.FC = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center">
-                                Adriana Saty
+                                Gabriel Ferreira
                             </Typography>
                             <Typewriter text="I'm a Software Engineer" delay={120} variant="h2" color="primary.contrastText" />
                             <Box mt={3}>
